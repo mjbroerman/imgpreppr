@@ -15,7 +15,10 @@
 #' @import magrittr
 #' @importFrom magick image_read image_crop image_scale image_write
 #' @examples
+#' \dontrun{
 #' blog_img_sq("some_image.jpg")
+#' }
+#'
 blog_img_sq <- function(image,
                         width_px = 300,
                         height_px = 300,
@@ -50,7 +53,9 @@ blog_img_sq <- function(image,
 #' @import magrittr
 #' @importFrom magick image_read image_crop image_scale image_write
 #' @examples
-#' blog_img_wd("some_image.jpg")
+#' \dontrun{
+#' blog_img_sq("some_image.jpg")
+#' }
 blog_img_wd <- function(image,
                         width_px = 800,
                         height_px = 200,

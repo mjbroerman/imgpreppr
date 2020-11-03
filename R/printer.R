@@ -7,7 +7,7 @@
 #' @return A tibble
 #' @export
 #'
-#'@importFrom tibble as_data_frame
+#' @importFrom tibble as_data_frame
 #' @examples
 #' printer(x = rnorm(5), r = rnorm(5))
 printer = function(r, x) {

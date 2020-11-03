@@ -6,7 +6,7 @@ Author: Matthew Broerman <matt.broerman@gmail.com>
 Maintainer: Matthew Broerman <matt.broerman@gmail.com>
 Description: Functions to make images play nice with blogdown based websites. These
     functions are for private use only.
-License: MIT License
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
@@ -18,4 +18,5 @@ Suggests:
 VignetteBuilder: knitr
 Imports: 
     magick,
-    magrittr
+    magrittr,
+    tibble

@@ -36,5 +36,8 @@ blog_img_sq(
 Crop and scale header to square
 }
 \examples{
+\dontrun{
 blog_img_sq("some_image.jpg")
+}
+
 }

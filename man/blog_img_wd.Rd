@@ -36,5 +36,7 @@ blog_img_wd(
 Crop and scale header to wide
 }
 \examples{
-blog_img_wd("some_image.jpg")
+\dontrun{
+blog_img_sq("some_image.jpg")
+}
 }
