@@ -1,6 +1,6 @@
 Package: imgpreppr
 Type: Package
-Title: Prepare Images for Blog Posts (Title Case)
+Title: Prepare Images for Blog Posts
 Version: 0.1.0
 Author: Matthew Broerman <matt.broerman@gmail.com>
 Maintainer: Matthew Broerman <matt.broerman@gmail.com>
@@ -12,3 +12,10 @@ LazyData: true
 RoxygenNote: 7.1.1
 URL: https://github.com/mjbroerman/imgpreppr
 BugReports: https://github.com/mjbroerman/imgpreppr/issues
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Imports: 
+    magick,
+    magrittr

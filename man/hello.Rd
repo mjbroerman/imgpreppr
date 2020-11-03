@@ -18,6 +18,6 @@ My Hello World Function
 \examples{
 hello("Matt")
 \dontrun{
-hello("Harry" )
+hello("Harry")
 }
 }
