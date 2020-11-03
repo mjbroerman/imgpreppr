@@ -35,3 +35,6 @@ blog_img_sq(
 \description{
 Crop and scale header to square
 }
+\examples{
+blog_img_sq("some_image.jpg")
+}

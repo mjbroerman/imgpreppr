@@ -5,6 +5,8 @@
 
 <!-- badges: start -->
 
+[![R build
+status](https://github.com/mjbroerman/imgpreppr/workflows/R-CMD-check/badge.svg)](https://github.com/mjbroerman/imgpreppr/actions)
 <!-- badges: end -->
 
 The goal of imgpreppr is to make images play nice with blogdown based

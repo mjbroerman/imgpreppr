@@ -35,3 +35,6 @@ blog_img_wd(
 \description{
 Crop and scale header to wide
 }
+\examples{
+blog_img_wd("some_image.jpg")
+}
