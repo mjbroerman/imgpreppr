@@ -7,11 +7,12 @@
 #' @return A tibble
 #' @export
 #'
-#' @importFrom tibble data_frame
+#' @importFrom tibble tibble
+#' @importFrom utils head
 #' @examples
 #' printer(x = rnorm(5), r = rnorm(5))
 printer = function(r, x) {
-  x = data_frame(x = x, r = r)
-  print(head(x))
+  x = tibble::tibble(x = x, r = r)
+  print(utils::head(x))
   return(x)
 }
