@@ -8,10 +8,10 @@ blog_img_wd(
   image,
   width_px = 800,
   height_px = 200,
-  wcrop_px = 5000,
-  hcrop_px = 1000,
-  woffset_px = 200,
-  hoffset_px = 1400
+  wcrop_px = 0,
+  hcrop_px = 0,
+  woffset_px = 0,
+  hoffset_px = 0
 )
 }
 \arguments{
@@ -36,7 +36,5 @@ blog_img_wd(
 Crop and scale header to wide
 }
 \examples{
-\dontrun{
-blog_img_sq("some_image.jpg")
-}
+blog_img_wd("inst/extdata/sample_header.jpg", wcrop_px = 800, hcrop_px = 200, woffset_px = 50, hoffset_px = 50)
 }

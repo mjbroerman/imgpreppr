@@ -53,16 +53,14 @@ blog_img_sq <- function(image,
 #' @import magrittr
 #' @importFrom magick image_read image_crop image_scale image_write
 #' @examples
-#' \dontrun{
-#' blog_img_sq("some_image.jpg")
-#' }
+#' blog_img_wd("inst/extdata/sample_header.jpg", wcrop_px = 800, hcrop_px = 200, woffset_px = 50, hoffset_px = 50)
 blog_img_wd <- function(image,
                         width_px = 800,
                         height_px = 200,
-                        wcrop_px = 5000,
-                        hcrop_px = 1000,
-                        woffset_px = 200,
-                        hoffset_px = 1400) {
+                        wcrop_px = 0,
+                        hcrop_px = 0,
+                        woffset_px = 0,
+                        hoffset_px = 0) {
   crop_spec <- paste0(wcrop_px, "x", hcrop_px, "+", woffset_px, "+", hoffset_px)
   scale_spec <- paste0(width_px, "x", height_px)
   img <- image_read(image)
