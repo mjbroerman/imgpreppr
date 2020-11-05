@@ -53,7 +53,9 @@ blog_img_sq <- function(image,
 #' @import magrittr
 #' @importFrom magick image_read image_crop image_scale image_write
 #' @examples
+#' \dontrun{
 #' blog_img_wd("inst/extdata/sample_header.jpg", wcrop_px = 800, hcrop_px = 200, woffset_px = 50, hoffset_px = 50)
+#' }
 blog_img_wd <- function(image,
                         width_px = 800,
                         height_px = 200,

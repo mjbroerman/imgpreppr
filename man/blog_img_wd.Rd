@@ -36,5 +36,7 @@ blog_img_wd(
 Crop and scale header to wide
 }
 \examples{
+\dontrun{
 blog_img_wd("inst/extdata/sample_header.jpg", wcrop_px = 800, hcrop_px = 200, woffset_px = 50, hoffset_px = 50)
+}
 }
